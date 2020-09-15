@@ -60,7 +60,7 @@
 
  /*  --------   MAIN -------- */
 
- main { background-color: #278FFF;}
+ main { background-color: ;}
 .welc-text { 
     font-size: 1.5rem;
     font-weight: 600;
@@ -70,3 +70,8 @@
     height: 50%;
     animation-iteration-count: infinite;
 } 
+
+
+/* git add .
+git commit -m "test"
+git push origin master */
