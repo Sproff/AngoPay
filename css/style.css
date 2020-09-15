@@ -68,8 +68,24 @@
 
 .AngoPay-Card { 
     height: 80vh;
-    animation-iteration-count: infinite;
+    animation: updown 2s ease infinite;
 } 
+
+
+
+@keyframes updown {
+  0% {
+    transform: translateY(-10%);
+  }
+
+  50% {
+    transform: translateY(10%);
+  }
+
+  100% {
+    transform: translateY(-10%);
+  }
+}
 
 
 /* git add .
