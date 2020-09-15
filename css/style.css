@@ -1,0 +1,64 @@
+ /*  -------- ANIMATIONS -------- */
+:root {
+    --animate-duration: 1.5s;
+    --animate-delay: 0.9s;
+  }
+  
+ /*  -------- HTML, BODY -------- */
+ html, body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 2;
+	text-rendering: optimizeLegibility; 
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+ /*  -------- NAVBAR -------- */
+ .navbar-light .navbar-toggler {
+    outline: none;
+}
+.navbar-light .navbar-toggler {
+    border-color: transparent;
+}
+
+.bg-navbar { box}
+
+ .logo { height: 5vh;}
+
+
+
+ /*  --------   REUSABLE COMPONENTS -------- */
+.text-color { color: #278FFF;}
+
+.btn-ghost {
+    border: 2px solid #278FFF;
+    color:  #278FFF;
+} 
+
+.btn-ghost:hover {
+    background-color: #278FFF;
+    color:  #fff;
+} 
+
+.btn-fill {
+    background-color: #278FFF;
+    color:  #fff;
+} 
+
+.btn-fill:hover {
+    background-color: #fff;
+    color:  #278FFF;
+    border: 2px solid #278FFF;
+} 
+
+ /*  --------   MAIN -------- */
+
+.welc-text { 
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.AngoPay-Card { 
+    height: 50%;
+    animation-iteration-count: infinite;
+} 
