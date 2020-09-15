@@ -28,9 +28,7 @@
     color: #278FFF;
 }
 
-.bg-navbar { box}
-
- .logo { height: 5vh;}
+.logo { height: 5vh;}
 
 
 
@@ -58,15 +56,16 @@
     border: 2px solid #278FFF;
 } 
 
- /*  --------   MAIN -------- */
+.btn-space { margin-left: -2rem}
 
- main { background-color: ;}
+
+ /*  --------   MAIN -------- */
 .welc-text { 
     font-size: 1.5rem;
     font-weight: 600;
 }
 
-.AngoPay-Card { 
+.angopay-card { 
     height: 80vh;
     animation: updown 2s ease infinite;
 } 
@@ -88,24 +87,25 @@
 }
 
 
-/* git add .
-git commit -m "feat: fixed responsiveness"
-git push origin master */
 
 
  /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) { .AngoPay-Card { height: 90vh;} }
+@media (min-width: 576px) { 
+    .angopay-card { height: 90vh;} 
+    .btn-space { margin-left: -2rem}
+}
     
  /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { ... }
 
  /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
-    .AngoPay-Card { height: 100vh;} 
     .navbar-collapse { margin-right: 5rem;}
+    .btn-space { margin-left: -5rem}
 }
 
  /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
     .navbar-collapse { margin-right: 10rem;}
+    .btn-space { margin-left: -8rem}
  }
