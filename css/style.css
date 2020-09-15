@@ -21,9 +21,16 @@
     border-color: transparent;
 }
 
+.navbar-light .navbar-nav .active>.nav-link {
+    color: #278FFF;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #278FFF;
+}
+
 .bg-navbar { box}
 
- .logo { width: 100%;}
+ .logo { height: 5vh;}
 
 
 
@@ -53,6 +60,7 @@
 
  /*  --------   MAIN -------- */
 
+ main { height: 70vh;}
 .welc-text { 
     font-size: 1.5rem;
     font-weight: 600;
