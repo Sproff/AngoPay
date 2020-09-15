@@ -89,5 +89,23 @@
 
 
 /* git add .
-git commit -m "test"
+git commit -m "feat: fixed responsiveness"
 git push origin master */
+
+
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { .AngoPay-Card { height: 90vh;} }
+    
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { ... }
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .AngoPay-Card { height: 100vh;} 
+    .navbar-collapse { margin-right: 5rem;}
+}
+
+ /* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    .navbar-collapse { margin-right: 10rem;}
+ }
